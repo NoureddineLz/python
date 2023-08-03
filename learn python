@@ -1,0 +1,297 @@
+ 
+# print("hello python")
+# name = "nouredine"
+# age = 22
+# print("your name is:" +name+ "\n your age is:" + str(age))
+
+#######################
+
+# x = input(" enter your name : ")
+# y = input(" enter password : ")
+# print("hello " +x)
+# print("welcome in the game")
+
+
+#######################
+# s =input('first num : ')
+# d =input('second num : ')
+# f = float(s) + float(d)
+# print(f)
+
+#######################
+# x = ("hi my name nourdin i from morocco")
+# print(x [4])
+#######################
+
+# v =("hi my name nourdin i from morocco")
+# print(v.upper()) # تكبير الحروف
+# v =("hi my name nourdin i from morocco")
+# print(v.lower()) # تصغير
+# v =("hi my name nourdin i from morocco")
+# print(v.isupper()) #هل الحروف كبيرة
+# v =("hi my name nourdin i from morocco")
+# print(v.islower()) #هل الحروف صغيرو
+# v =("hi my name nourdin i from morocco")
+# print(v.capitalize()) #اول حرف 
+# v =("hi my name nourdin i from morocco")
+# print(v.title()) #اول حرف في الاسم
+
+#######################
+
+# test_py ="html css js php python"
+# print(test_py.split()) #  list تحويل العناصر الى
+# print(test_py.split('p')) # حرف في العنصر
+# print(test_py.split(' ',2)) # حرف في العنصر بعد 2 عنصر
+
+#######################
+# lan ="html css js php python"
+# print(lan.index("css")) # موقع الحرف
+# print(lan.count("css")) # عدد الحروف
+# print(lan.count("css",0,5)) # عدد الحروف بعد 5 عنصر
+# print(lan.find("css")) # موقع الحرف
+# print(lan.find("css",0,5)) # موقع الحرف بعد 5 عنصر
+# print(lan.rfind("css")) # موقع الحرف بعد الاسم
+# print(lan.rfind("css",0,5)) # موقع الحرف بعد الاسم بعد 5 عنصر
+# print(lan.rindex("css")) # موقع الحرف بعد الاسم
+
+#######################
+# x ="html css js php python"
+# print(x.replace("html", "ls")) #بدل مكان الكلمة
+# print(x.replace("html", "ls", 2)) #بدل مكان الكلمة بعد 2 عنصر
+# print(x.replace("html", "ls", 2, 5)) #بدل مكان الكلمة بعد 2 عنصر بعد 5 عنصر
+
+########################
+# numbers
+#print( type(3*2)) # النوع
+
+#################
+#التحويل
+#print(str(23) + " " "years")
+
+#################
+# print(round(7.5)) # تقريب الرقم للاعلى
+# print(round(7.5,2)) # تقريب الرقم للاعلى بعد 2 عنصر
+#############
+
+
+# from math import *
+# print(floor(3.7))
+# print(ceil(3))
+##########
+
+# print(pow(2,3)) #الاوس
+# print(abs(-2)) # التحويل للموجب
+# print(max(4,3))
+# print(min(4,3))
+
+#########
+
+
+# lan1 =input("first lang :")
+# lan2 = input("second lang :")
+# print("i love " +lan1+ "\n" " i love " +lan2)
+############
+
+       #list
+# lista =["nour", 1, True, [1, 2, 3]]
+# lista[2] ="add"
+# print(lista )
+###########""
+
+# z =[1,7,8]
+# x =[1,2,3]
+# x.append(4) #اضافة
+# x.insert(0,"nour")
+# x.remove("nour") #حذف
+# x.extend(z) #دمج
+# x.sort(reverse=True) #ترتيب
+# x.pop() #حذف عنصر بعد عنصر
+# print(x)
+#################
+
+     #tuples
+# tuples =(1,2,3)
+# print(tuples)
+##############
+
+   #dic
+# info ={
+#     "name" : "nour",
+#     "age" : 23,
+#     "gender" : "male"
+# }
+# print(info["age"])
+# print(info.get("id"))
+###############
+
+      #function
+# def add():
+#     x = input("enter first number :")
+#     y = input("enter second number :")
+#     return int(x) + int(y)
+# print(add())
+# ################
+
+# def cel(name,age):
+#     print("your name is : "+name+ "your age is : "+str(age))
+# cel("nour",22)
+# ###########
+
+# def clac(num1,num2):
+#     num1+num2
+#     return num1+num2
+# print(clac(10,2))
+#################
+
+# def calcdays(age): # كم من يوم عشة
+#     return"your age is : "+str(age*365)+ "days"
+# print(calcdays(22))
+# #################
+
+# def clachhours(age):# بالساعات
+#     return"your age is : "+str(age*365*60)+ "hours"
+# print(clachhours(25))
+# #################
+
+# def clachhours(age):# بالساعات
+#     return"your age is : "+str(age*365*24)+ "hours"
+# print(clachhours(int(input("enter your age : ")))
+#################
+
+     #if
+# name =False
+# if name == True:
+#     print("hello ")
+# else:
+#     print("not hello ")
+#################
+
+    # enter email and password
+# email = "nour23@gmail.com"
+# password = 232332
+# if email =="nour23@gmail.com" and password == 232332: # and لازم الشرطين يتحققوا
+#       # or شرط واحد
+#     print("welcome ")
+# elif email =="nour23@gmail.com" and password !=232332:
+#     print("wrong password ")
+# elif email !="nour23@gmail.com" and password ==232332:
+#     print("wrong email ")
+# else:
+#     print("erur ")
+#################
+
+   # test if
+
+# nourdin = 90
+# if nourdin >= 90:
+#     print("excellent")
+# elif nourdin >= 80:
+#     print("very good")
+# elif nourdin >= 60:
+#     print("good")
+# elif nourdin >= 50:
+#     print("successfull")
+# else:
+#     print(" not successfull")                                       
+#################
+
+   # test if end function
+
+# def names(nour, add, yas):
+#     if nour > add and nour > yas:
+#         return nour
+#     elif add > nour and add > yas:
+#         return add
+#     else:
+#         return yas
+# print(names(90, 67, 40))
+
+#################
+#loop #while
+# i =1
+# while i <= 10:
+    
+#     print(i)
+#     i +=1
+
+##################
+# i =1
+# while i <= 10:
+#     i +=1 # زود قبل الطبع
+#     if i==8:
+#         continue
+#     print(i)
+###################
+# i =1
+# while i <= 10:
+#     i +=1 # زود قبل الطبع
+#     if i==8:
+#         break #توقيف العداد
+#     print(i)
+############################
+
+    # تطبيق تسال سؤال 
+# secret_answer = "rabat" # تخزين var
+# answer = "" # المستخدم يحط الاجابة
+# count = 0 #
+# limit = 3 # عدد المحاولات
+# lose = False #
+# while answer != secret_answer and not lose:
+#     if count < limit: 
+#        answer = input("what is capital of moroco? ")
+#        count += 1
+#     else:
+#        lose = True
+# if lose:
+#    print("you lost")
+# else:
+#    print("you won")
+
+###########################
+
+         #for loop#
+
+# name= "nourdin" # ممكن تستخدم var
+# x =["nour", "add"," yas"] # ممكن تستخدم list
+# for name in x:
+#     print(name)
+
+###########################
+
+#for x in range(4,8):
+   # print(x)
+
+############################
+#name ="nourdin"
+#for x in range(len(name)):
+  #  print(x)
+  ###########################
+
+# name =["html", "css","js"]
+# for x in range(len(name)):
+#     print(name[x])
+
+ #############################
+
+# lan =["java", "html", "css"]
+# for lista in range(len(lan)):
+#    print(lan[lista])
+
+##############################
+
+# lan =["java", "html", "css", "python"]
+# for lista in range(len(lan)):
+#    if lan[lista] =="python":
+#        print(lan[lista], "i love python")
+#    else:
+#       print(lan[lista])
+
+
+##############################
+# info = {
+#     "name":"nourdin",#    "age":20,
+#    "city":"moroco"
+
+# }
+# for x in info:
+#    print(x, info[x])
